@@ -1,0 +1,154 @@
+
+/* ini punya nya header*/
+header{
+	background: #0D3D54;
+	margin: 0 0 50px 0;
+	padding: 5px 0 0 0;
+	width: 100%;
+}
+
+/* ini punya nya nav*/
+nav{
+	background: #808080;
+	text-align: center;
+	padding: 10px 0;
+	margin: 20px 0 0;
+}
+nav a{
+	color: #fff;
+	font-weight: 800;
+	padding: 15px 10px;
+}
+nav a.selected, nav a:hover{
+	color: #0199E2;
+}
+section .getBackground{
+	background-color: rgba(255,255,255, 0.8);
+}
+
+body{
+	background-image: url("../pattern/bg2.png");
+	background-repeat: repeat;
+	font-family: 'Open Sans', sans-serif;
+}
+
+nav ul{
+	margin: 0 10px;
+	padding: 0;
+}
+
+nav li{
+	display: inline-block;
+}
+
+a{
+	text-decoration: none;
+}
+
+#wrapper{
+	padding: 0 5%;
+	max-width: 1000px;
+	margin: 0 auto;
+}
+
+#wrapper li{
+	list-style: none;
+}
+
+#login{
+	float: right;
+	margin-top: 20px;
+	margin-right: 20px;
+	padding: 10px 20px 10px 20px;
+	background-color: #0199e2;
+	font-weight: 800;
+	color: #1e2d3c;
+}
+
+#login:hover{
+	background-color: white;
+}
+
+nav li{
+	list-style: none;
+}
+
+#logo{
+	width: 50px;
+	text-align: center;
+}
+
+footer{
+	font-size: 0.75em;
+	text-align: center;
+	padding-top: 50px;
+	color: #ccc;
+	/* clear: both; tambahkan ini kalau pakai float, display di gallery li dihapus*/
+}
+img{
+	max-width: 100%;
+	margin: 5 5 0 5;
+
+
+}
+#gallery{
+	width: 100%;
+	margin: auto;
+	padding: 0;
+}
+#gallery li{
+	/* float: left;  membuat konten mengapung ke kiri*/
+	width: auto; /* mengatur lebar li*/
+	margin: 0 20 10 20;
+	color: #bdc3c7;
+	display: inline-block;
+	background-color: grey;
+}
+
+#gallery li a p{
+	margin: 0;
+	padding: 5%;
+	font-size: 0.75em;
+	color: #bdc3c7;
+}
+
+.social-icon{
+	width: 20px;
+	height: 20px;
+	margin: 0 2px;
+}
+
+.profile-photo{
+	display: block;
+	max-width: 454px;
+	height: 231px;
+	margin: 0 auto 30px;
+	border-radius: 10px;
+}
+
+h3{
+	margin: 0 0 1em 0;
+}
+
+.contact-info li.phone a{
+	background-image: url("../images/phone.png");
+	}
+
+.contact-info li.mail a{
+	background-image: url("../images/mail.png");
+}
+.contact-info li.twitter a{
+	background-image: url("../images/twitter.png");
+}
+.contact-info a{
+	display: inline-block;
+	background-repeat: no-repeat;
+	background-size: 20px 20px;
+	padding: 0 0 0 30;
+	margin-bottom: 10px;
+}
+
+table{
+	width: 40%; 
+	margin: auto;
+}
