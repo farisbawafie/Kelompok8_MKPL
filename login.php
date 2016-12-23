@@ -21,7 +21,7 @@
   <a id="login" href="login.php">
     LOGIN
   </a>
-  <a id="login" href="registrasi.php">
+  <a id="REGISTER" href="registrasi.php">
     REGISTER
   </a>
    <nav>
